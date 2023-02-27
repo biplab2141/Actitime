@@ -32,8 +32,11 @@ public class CustomerModule extends BaseClass
 		t.getCreateCustomerBtn().click();
 		
 		//Assert.assertEquals(customerName,);
-		
-		
+	}
+	@Test
+	public void UpdateCustomer()
+	{
+		Reporter.log("UpdateCustomer",true);
 	}
 	
 

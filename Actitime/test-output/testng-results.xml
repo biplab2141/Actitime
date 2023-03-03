@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[UpdateCustomer]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-02-14T17:16:02 IST" name="Default suite" finished-at="2023-02-14T17:16:38 IST" duration-ms="36448">
+  <suite started-at="2023-02-27T22:38:21 IST" name="Default suite" finished-at="2023-02-27T22:39:20 IST" duration-ms="58675">
     <groups>
     </groups>
-    <test started-at="2023-02-14T17:16:02 IST" name="Default test" finished-at="2023-02-14T17:16:38 IST" duration-ms="36448">
+    <test started-at="2023-02-27T22:38:21 IST" name="Default test" finished-at="2023-02-27T22:39:20 IST" duration-ms="58675">
       <class name="com.actitime.testscript.CustomerModule">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@53fdffa1]" started-at="2023-02-14T17:16:02 IST" name="openBrowser" finished-at="2023-02-14T17:16:15 IST" duration-ms="12892" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@73e22a3d]" started-at="2023-02-27T22:38:21 IST" name="openBrowser" finished-at="2023-02-27T22:38:37 IST" duration-ms="16163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CustomerModule@53fdffa1]" started-at="2023-02-14T17:16:15 IST" name="login" finished-at="2023-02-14T17:16:24 IST" duration-ms="8781" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CustomerModule@73e22a3d]" started-at="2023-02-27T22:38:37 IST" name="login" finished-at="2023-02-27T22:38:48 IST" duration-ms="10464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="CreateCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@53fdffa1]" started-at="2023-02-14T17:16:24 IST" name="CreateCustomer" finished-at="2023-02-14T17:16:34 IST" duration-ms="10573" status="FAIL">
+        <test-method signature="CreateCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@73e22a3d]" started-at="2023-02-27T22:38:48 IST" name="CreateCustomer" finished-at="2023-02-27T22:39:03 IST" duration-ms="14969" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getRow(int)" because the return value of "org.apache.poi.ss.usermodel.Workbook.getSheet(String)" is null]]>
@@ -58,11 +61,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCustomer -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.CustomerModule@53fdffa1]" started-at="2023-02-14T17:16:35 IST" name="logout" finished-at="2023-02-14T17:16:37 IST" duration-ms="2606" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.CustomerModule@73e22a3d]" started-at="2023-02-27T22:39:04 IST" name="logout" finished-at="2023-02-27T22:39:06 IST" duration-ms="2342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@53fdffa1]" started-at="2023-02-14T17:16:37 IST" name="closeBrowser" finished-at="2023-02-14T17:16:38 IST" duration-ms="1040" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CustomerModule@73e22a3d]" started-at="2023-02-27T22:39:06 IST" name="login" finished-at="2023-02-27T22:39:08 IST" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="UpdateCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@73e22a3d]" started-at="2023-02-27T22:39:08 IST" name="UpdateCustomer" finished-at="2023-02-27T22:39:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UpdateCustomer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.CustomerModule@73e22a3d]" started-at="2023-02-27T22:39:08 IST" name="logout" finished-at="2023-02-27T22:39:16 IST" duration-ms="8120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CustomerModule@73e22a3d]" started-at="2023-02-27T22:39:16 IST" name="closeBrowser" finished-at="2023-02-27T22:39:20 IST" duration-ms="3561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

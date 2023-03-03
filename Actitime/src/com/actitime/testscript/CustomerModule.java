@@ -31,6 +31,7 @@ public class CustomerModule extends BaseClass
 		t.getOurCompanyTab().click();
 		t.getCreateCustomerBtn().click();
 		
+	
 		//Assert.assertEquals(customerName,);
 	}
 	@Test
